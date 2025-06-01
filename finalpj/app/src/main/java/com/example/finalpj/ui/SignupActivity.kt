@@ -24,6 +24,7 @@ class SignupActivity : AppCompatActivity() {
             val chkPregnant = findViewById<CheckBox>(R.id.chkPregnant)
             val chkAdAgree = findViewById<CheckBox>(R.id.chkAdAgree)
             val chkAgree2 = findViewById<CheckBox>(R.id.chkAgree2)
+            val nameEdit = findViewById<EditText>(R.id.editName)
             val finishBtn = findViewById<Button>(R.id.btnSignupFinish)
 
             finishBtn.setOnClickListener {
@@ -33,6 +34,7 @@ class SignupActivity : AppCompatActivity() {
                 val isPregnant = chkPregnant.isChecked
                 val adAgree = chkAdAgree.isChecked
                 val agree2 = chkAgree2.isChecked
+                val name = nameEdit.text.toString()
 
                 // 예시: 필수 동의 체크 안 했을 때 안내
                 if (!agree2) {
