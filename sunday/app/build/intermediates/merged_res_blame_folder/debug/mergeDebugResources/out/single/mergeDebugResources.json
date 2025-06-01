@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_coffee_idea.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\coffee_idea.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_report.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_report.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_bottom_nav.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_rounded_button_gray.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\rounded_button_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_no_home.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_no_home.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_record.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_rcmd.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_rcmd.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_my_page.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_my_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_signup2.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_signup2.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_recommend.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_home.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_home.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_rounded_button_brown.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\rounded_button_brown.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_my.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_my.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_no_report.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_no_report.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_no_my.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_no_my.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_bean.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\bean.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_default_profile.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\default_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_under_bean.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\under_bean.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_toolbar_common.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\toolbar_common.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_nav_no_rcmd.png.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\nav_no_rcmd.png"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_rounded_button_black.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\rounded_button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dew17\\.gradle\\daemon\\8.11.1\\com.example.finalpj.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    }
+]
