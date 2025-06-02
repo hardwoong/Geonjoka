@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center_horizontal">
+
+    <include
+        layout="@layout/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:paddingTop="32dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/default_profile"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="박세웅님"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/txtUserDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여름엔 뜨거운 겨울엔 차가운 음료"
+            android:textSize="16sp"
+            android:textColor="#B03E2C"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/txtGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="박세웅님, 오늘도 건강히 카페인 수혈해요!"
+            android:textSize="18sp"
+            android:textColor="#B03E2C"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="회원 정보 수정"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_brown"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="24dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="로그아웃"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_brown"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="24dp"/>
+
+        <Button
+            android:id="@+id/btnWithdraw"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="회원탈퇴"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_brown"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="24dp"/>
+    </LinearLayout>
+
+    <include
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+</LinearLayout>

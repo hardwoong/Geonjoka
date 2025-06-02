@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgCoffeeIdea"
+            android:src="@drawable/coffee_idea"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:id="@+id/txtRecommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘은 어떤 음료가 좋을까요?"
+            android:textSize="20sp"
+            android:textColor="#B03E2C"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnRetry"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:text="다시 추천 받기"
+            android:textColor="#fff"
+            android:backgroundTint="#B03E2C"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button_brown"/>
+    </LinearLayout>
+
+    <include
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+</LinearLayout>

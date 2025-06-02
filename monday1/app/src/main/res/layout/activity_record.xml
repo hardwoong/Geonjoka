@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 기록 화면 본문 -->
+    <LinearLayout
+        android:id="@+id/record_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- 카페인 입력 영역 추가 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/editCaffeine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="카페인량 (mg)"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <Button
+                android:id="@+id/btnAddCaffeine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추가"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_button_black"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtCaffeineRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="날짜를 선택하세요."
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+</LinearLayout>

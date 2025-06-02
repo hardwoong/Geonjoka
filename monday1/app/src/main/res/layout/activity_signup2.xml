@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <!-- 상단 로고 -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:contentDescription="logo"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 상단 문구 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="32dp">
+        <TextView
+            android:text="건강에 좋게 카페인, "
+            android:textSize="20sp"
+            android:textColor="#888888"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="건종카"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_brown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 회원가입 2단계 폼 -->
+    <LinearLayout
+        android:id="@+id/signup2Form"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="이름"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editName"
+            android:hint="홍길동"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:text="이메일"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editEmail"
+            android:hint="1eqpo@hansung.ac.kr"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:text="생년월일 입력"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editBirth"
+            android:hint="2001.04.30"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- (필수) 개인정보 수집 동의 체크박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <CheckBox
+                android:id="@+id/chkAgree2"
+                android:buttonTint="@color/main_brown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="(필수) 개인정보 수집에 동의함"
+                android:textColor="#B03E2C"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- 임신부 여부 체크박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <CheckBox
+                android:id="@+id/chkPregnant"
+                android:buttonTint="@color/main_brown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="임산부 여부"
+                android:textColor="#B03E2C"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- (선택) 광고성 정보 수신 동의 체크박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+            <CheckBox
+                android:id="@+id/chkAdAgree"
+                android:buttonTint="#888888"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="(선택) 광고성 정보 수신 동의함"
+                android:textColor="#888888"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSignupFinish"
+            android:text="회원가입"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_black"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ImageView
+        android:id="@+id/imgUnderBean"
+        android:src="@drawable/under_bean"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="bottom"
+        android:contentDescription="bean"
+        android:layout_marginBottom="6dp" />
+
+</LinearLayout>
