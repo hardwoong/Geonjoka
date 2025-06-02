@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <!-- 상단 로고 -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:contentDescription="logo"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 상단 문구 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="32dp">
+        <TextView
+            android:text="건강에 좋게 카페인, "
+            android:textSize="20sp"
+            android:textColor="#888888"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="건종카"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_brown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 로그인 폼 -->
+    <LinearLayout
+        android:id="@+id/loginForm"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="아이디"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="아이디"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/txtIdError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:text="비밀번호"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editPw"
+            android:hint="비밀번호 입력"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 비밀번호 유효성 메시지 -->
+        <TextView
+            android:id="@+id/txtPwError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#B03E2C"/>
+
+        <TextView
+            android:text="비밀번호 확인"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editPwCheck"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtPwCheckError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:text="이메일"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editEmail"
+            android:hint="2171140@hansung.ac.kr"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#B0B0B0"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/txtEmailError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/btnSignupNext"
+            android:text="다음"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- 하단 콩 반쪽 이미지 -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ImageView
+        android:id="@+id/imgUnderBean"
+        android:src="@drawable/under_bean"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="bottom"
+        android:contentDescription="bean"
+        android:layout_marginBottom="6dp" />
+
+</LinearLayout>
